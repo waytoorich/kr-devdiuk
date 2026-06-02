@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rig.dev Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="Images\logo.svg" alt="Logo" class="logo-img">
+            <span>Rig.dev</span>
+        </a>
+        <nav class="nav-links">
+            <a href="#">Docs</a>
+            <a href="#">Pricing</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Community</a>
+        </nav>
+        <a href="#" class="btn btn-dark nav-btn">
+            <img src="Images\gitcat.svg" alt="GitHub" class="btn-icon"> Support us
+        </a>
+    </header>
+
+    <div class="header-mobile">
+        <a href="#" class="logo">
+            <img src="Images\logo.svg" alt="Logo" class="logo-img">
+            <span>Rig.dev</span>
+            <img id="hamburgerImage" src="Images/hamburger.svg" alt="hamburger"/>
+        </div>
+        <ul class="mobile-menu" id="mobileMenu">
+            <li><a href="#">Docs</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Support us</a></li>
+        </ul>
+    </div>
+
+    <section class="hero container">
+        <div class="hero-content">
+            <h1>The application platform for Kubernetes</h1>
+            <p>Deploy, manage and troubleshoot cloud-native applications at scale without overwhelming your engineers with the complexity of Kubernetes.</p>
+            
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-dark">Documentation →</a>
+                <a href="#" class="btn btn-outline">
+                    <img src="Images/gitcatwhite.svg" alt="GitHub" class="btn-icon"> Get Started
+                </a>
+            </div>
+
+            <div class="compatibility">
+                <p>Compatible with</p>
+                <div class="logos">
+                    <img src="Images/Google_Cloud_logo.svg" alt="Google Cloud">
+                    <img src="Images/AWS.svg" alt="AWS">
+                    <img src="Images/azure.svg" alt="Azure">
+                    <img src="Images/digitalocean.svg" alt="DigitalOcean">
+                </div>
+            </div>
+        </div>
+       <div class="hero-visual">
+        <img src="Images/2.png" class="hero-bg" alt="">
+    </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="features-header">
+                <span class="badge">Fixing K8 complexity</span>
+                <h2>Don't let the complexity of Kubernetes<br>leak into your engineering team</h2>
+            </div>
+
+            <div class="features-grid">
+                <div class="card">
+                    <img src="Images/K8s Operator.png" alt="Abstract Away K8s Primitives" class="card-img">
+                    <h3>Abstract Away K8s Primitives</h3>
+                    <p>Deploy, manage and debug applications with end-to-end ownership without experiencing bottlenecks or battling Kubernetes hurdles.</p>
+                </div>
+                <div class="card">
+                    <img src="Images/K8s Operator1.png" alt="Proactively Troubleshoot" class="card-img">
+                    <h3>Proactively Troubleshoot</h3>
+                    <p>Identify availability issues, misconfigurations, lack of resources, K8s anomalies and failed deploys w. feedback and health checks.</p>
+                </div>
+                <div class="card">
+                    <img src="Images/Developer Tools.png" alt="Developer Tools" class="card-img">
+                    <h3>Developer Tools</h3>
+                    <p>Robust tooling that encompass a CLI, an extensive developer-interfaces and cloud-native CI/CD integrations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="page-bottom-bg">
+        <section class="dark-section">
+            <div class="container">
+            
+            <div class="dark-block">
+                <div class="dark-block-header">
+                    <span class="dark-badge">
+                        <img src="Images/logo2.svg" alt="" class="badge-icon"> Convention over Configuration
+                    </span>
+                    <h2>Developer-Friendly Kubernetes Abstractions</h2>
+                    <p>Deploy and scale applications without battling the intricacies of K8s and spending valuable time configuring low-level K8s resources repeatedly.</p>
+                    <a href="#" class="btn btn-white">Explore documentation →</a>
+                </div>
+                
+                <div class="dark-grid grid-2">
+                    <div class="dark-card align-center">
+                        <img src="Images/upscaler.png" alt="Autoscaler UI" class="dark-card-image">
+                        <div class="dark-card-content">
+                            <h3>Autoscaler</h3>
+                            <p>Seamlessly enable vertical- and horizontal autoscaling with CPU- & Memory limits, number of replicas & avg. CPU utilisation Targets.</p>
+                        </div>
+                    </div>
+                    <div class="dark-card align-center">
+                        <img src="Images/network interface.png" alt="Network Interfaces UI" class="dark-card-image">
+                        <div class="dark-card-content">
+                            <h3>Network Interfaces</h3>
+                            <p>Manage Private and Public Network Interfaces and let Rig automatically handle the rest.</p>
+                        </div>
+                    </div>
+                    <div class="dark-card align-center">
+                        <img src="Images/evariebles.png" alt="Environment Variables UI" class="dark-card-image">
+                        <div class="dark-card-content">
+                            <h3>Environment Variables</h3>
+                            <p>Automate configuring the low-level Kubernetes resources on both container and pod-level.</p>
+                        </div>
+                    </div>
+                    <div class="dark-card align-center">
+                        <img src="Images/config files.png" alt="Config Files UI" class="dark-card-image">
+                        <div class="dark-card-content">
+                            <h3>Config Files</h3>
+                            <p>Our platform simplifies config files and their mounting. Don't spend time changing low-level K8s resources.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dark-block">
+                <div class="dark-block-header">
+                    <span class="dark-badge">
+                        <img src="Images/logo2.svg" alt="" class="badge-icon"> Development
+                    </span>
+                    <h2>Flexible and scalable Deployment Engine</h2>
+                    <p>Deploy and manage any application on any cloud provider with Rig and Kubernetes. Rig enables developers to deploy well-configured applications in Kubernetes without the complexity.</p>
+                    <a href="#" class="btn btn-white">Explore documentation →</a>
+                </div>
+                
+                <div class="dark-grid grid-3">
+                    <div class="dark-card">
+                        <div class="dark-card-content">
+                            <h3>Builds</h3>
+                            <p>Immutable deployments of a new services w. automatic configurations of resources.</p>
+                        </div>
+                        <img src="Images/Builds.png" alt="Builds" class="dark-card-image-bottom">
+                    </div>
+                    <div class="dark-card">
+                        <div class="dark-card-content">
+                            <h3>Rollouts & Rollbacks</h3>
+                            <p>Deploy and update configurations with immutability and efficient Rollbacks.</p>
+                        </div>
+                        <img src="Images/Rollbacks.png" alt="Rollouts" class="dark-card-image-bottom">
+                    </div>
+                    <div class="dark-card">
+                        <div class="dark-card-content">
+                            <h3>Integrations</h3>
+                            <p>Integrate seamlessly into existing cloud-native deployment stacks.</p>
+                        </div>
+                        <img src="Images/Integrations.png" alt="Integrations" class="dark-card-image-bottom">
+                    </div>
+                </div>
+            </div>
+
+            <div class="dark-block">
+                <div class="dark-block-header">
+                    <span class="dark-badge">
+                        <img src="Images/logo2.svg" alt="" class="badge-icon"> Development
+                    </span>
+                    <h2>Troubleshooting made simple</h2>
+                    <p>Deploy and manage any application on any cloud provider with Rig and Kubernetes. Rig enables developers to deploy well-configured applications in Kubernetes without.</p>
+                    <a href="#" class="btn btn-white">Explore documentation →</a>
+                </div>
+                
+                <div class="dark-grid grid-4">
+                    <div class="dark-card small-card">
+                        <div class="icon-wrapper">
+                            <img src="Images/cluster.svg" alt="Cluster insights">
+                        </div>
+                        <h3>Cluster insights</h3>
+                        <p>High-level access to cluster health, features and issues.</p>
+                    </div>
+                    <div class="dark-card small-card">
+                        <div class="icon-wrapper">
+                            <img src="Images/Instances.svg" alt="Instances">
+                        </div>
+                        <h3>Instances</h3>
+                        <p>Instance status and dependencies in one aggregated view.</p>
+                    </div>
+                    <div class="dark-card small-card">
+                        <div class="icon-wrapper">
+                            <img src="Images/Logging.svg" alt="Logging">
+                        </div>
+                        <h3>Logging</h3>
+                        <p>Stream combined Capsule logs across instances, directly from the dashboard.</p>
+                    </div>
+                    <div class="dark-card small-card">
+                        <div class="icon-wrapper">
+                            <img src="Images/Health Checks.svg" alt="Health Checks">
+                        </div>
+                        <h3>Health Checks</h3>
+                        <p>Easily configure Liveness and Ready probes for Capsules.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="light-section benefits-section">
+    <div class="container">
+        <h2 class="section-title text-center">A platform to benefit the entire team</h2>
+        
+        <div class="tabs-container">
+            <button class="tab-btn active">Product Teams</button>
+            <button class="tab-btn">DevOps/Platform Teams</button>
+            <button class="tab-btn">Engineering Leaders</button>
+        </div>
+
+        <div class="grid-3">
+            <div class="white-card benefit-card">
+                <div class="card-image-svg-placeholder">
+                    <img src="Images/plus.svg" alt="+">
+                </div>
+                <h3>Straight from code to production</h3>
+                <p>Identify issues, misconfigurations, lack of resources, and failed deploys, and resolve with rollbacks.</p>
+            </div>
+            
+            <div class="white-card benefit-card">
+                <div class="card-image-svg-placeholder">
+                    <img src="Images/plus.svg" alt="+">
+                </div>
+                <h3>Troubleshoot blazingly fast</h3>
+                <p>Identify issues, misconfigurations, lack of resources, and failed deploys, and resolve with rollbacks.</p>
+            </div>
+            
+            <div class="white-card benefit-card">
+                <div class="card-image-svg-placeholder">
+                    <img src="Images/plus.svg" alt="+">
+                </div>
+                <h3>Unmatched Developer Experience</h3>
+                <p>Provide developers with a powerful platform that fits their workflows with a robust CLI and Dashboard.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="full-width-container">
+    <hr class="section-divider-line">
+</div>
+
+<section class="light-section spin-section">
+    <div class="container">
+        <h2 class="section-title">Ready to take Rig for a spin?</h2>
+        
+        <div class="split-card simple-spin-card">
+            <div class="split-half">
+                <h3>Schedule a call</h3>
+                <p>We are gladly helping companies to get started.</p>
+                <button class="btn-dark">Schedule a Call →</button>
+            </div>
+            <div class="split-divider"></div>
+            <div class="split-half">
+                <h3>Try it out yourself</h3>
+                <p>We have made it as easy as possible to try Rig.</p>
+                <button class="btn-dark">Documentation →</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="dark-footer main-footer">
+    <div class="container">
+        
+        <div class="community-banner">
+            <div class="community-content">
+                <h2>Join our Community</h2>
+                <div class="community-buttons">
+                   <button class="btn-footer-white">
+                    Join on Slack<img src="Images/logo4.svg" alt="Logo" class="btn-footer-icon">
+                </button>
+                <button class="btn-transparent">
+                    <img src="Images/gitcat.svg" alt="Github" class="btn-footer-icon"> Star us on Github
+                </button>
+                </div>
+            </div>
+            <div class="community-image">
+                <img src="Images/your-computer-image.png" alt="Community Computer">
+            </div>
+        </div>
+
+        <div class="footer-top">
+            <div class="footer-brand">
+                <div class="footer-logo-svg-placeholder">
+                    <img src="Images\logo3.svg" alt="Logo"> Rig.dev
+                </div>
+                <div class="social-icons">
+                    <a href="#" class="social-box">
+                        <img src="Images/gitcat.svg" alt="gh" class="social-svg">
+                    </a>
+                    <a href="#" class="social-box">
+                        <img src="Images/x.svg" alt="x" class="social-svg">
+                    </a>
+                    <a href="#" class="social-box">
+                        <img src="Images/in.svg" alt="in" class="social-svg">
+                    </a>
+                    <a href="#" class="social-box">
+                        <img src="Images/sl.svg" alt="sl" class="social-svg">
+                    </a>
+                </div>
+            </div>
+            
+            <div class="newsletter-box">
+                <p>Sign up for our newsletter and join the growing Rig.dev community.</p>
+                <form class="newsletter-form">
+                    <input type="text" placeholder="First name">
+                    <input type="email" placeholder="Email">
+                    <button type="submit" class=".newsletter-form button">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+        <hr class="footer-line">
+
+        <div class="footer-bottom-grouped">
+            <p>© 2023 Rig.Dev ApS</p>
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy & Cookies policy</a>
+        </div>
+    </div>
+</footer>
+
+<script>
+    const hamburger = document.getElementById('hamburgerImage');
+    const navItem = document.getElementById('mobileMenu');
+    
+    hamburger.addEventListener('click', () => {
+        if(navItem.style.display != "flex"){
+            navItem.style.display = "flex";
+        } else {
+            navItem.style.display = "none";
+        }
+        });
+        
+    window.addEventListener('resize', () => {
+        if (window.innerWidth > 540) {
+            navItem.style.display = "none";
+        }
+        });
+</script>
+
+</body>
+</html>
